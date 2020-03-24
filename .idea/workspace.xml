@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f71032-32f7-4c33-803c-97f0ae35d5ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/glove_strobe_light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/strobe_light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/touch_screen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-masthead.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1ZUiZVWyQuZimcrsiaTf17fhT8x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,6 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584900128704</updated>
       <workItem from="1584900130119" duration="2535000" />
+      <workItem from="1585055449087" duration="4963000" />
     </task>
     <servers />
   </component>
@@ -54,5 +61,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585055449695">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1585055449695" />
   </component>
 </project>
