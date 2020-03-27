@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f71032-32f7-4c33-803c-97f0ae35d5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/myCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
       <workItem from="1584900130119" duration="2535000" />
       <workItem from="1585055449087" duration="4963000" />
       <workItem from="1585245184499" duration="5047000" />
+      <workItem from="1585306988211" duration="2720000" />
     </task>
     <servers />
   </component>
@@ -70,10 +71,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585055449695">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="360" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585306999067">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1585055449695" />
+    <state x="360" y="189" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585306999067" />
     <state x="347" y="176" key="run.anything.popup" timestamp="1585249854503">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
