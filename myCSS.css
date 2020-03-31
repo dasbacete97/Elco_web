@@ -15,6 +15,13 @@ a:hover,a:focus{
 li{
     margin-bottom:0.6%;
 }
+table {
+    width: 80%;
+    margin-bottom:2%;
+    border: 1px solid #f1f1f1;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+
 .tab .nav-tabs li a{
 
     padding: 10px 20px;
@@ -49,6 +56,7 @@ li{
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
 }
+
 .tab .nav-tabs li.active a:before,
 .tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
 .tab .tab-content{
@@ -60,6 +68,14 @@ li{
     line-height: 30px;
     letter-spacing: 1px;
     position: relative;
+}
+.tabcontent{
+    padding: 3%;
+    border: #c3d2e0 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom:2%;
+
 }
 @media only screen and (max-width: 479px){
     .tab .nav-tabs{ border: none; }
