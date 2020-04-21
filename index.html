@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5"> The new learning tool that will make your physic classes easier</h1>
+          <h1 class="mb-5">PhysStick!!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -50,7 +50,7 @@
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Purchase!</button>
               </div>
             </div>
           </form>
@@ -100,16 +100,18 @@
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/touch_screen.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Uses Touch Screen to Control settings and Display data</h2>
-          <p class="lead mb-0">This 3.2" TFT LCD touch screen with SPI interface can be programmed with Arduino and allows users to control de device settings and receive information from the experiments.</p>
+          <h2>PhysStick-C</h2>
+          <p class="lead mb-0">PhysStic-C is a small and compact device that will allow you to make little experiments detecting frequency of moving objects. It is also perfect for you if you are a beginner in the world electronics.
+            PhysStic-C is also a small DIY project with which you will learn and how to interface a Touch Screen and an Inertial Measurement Unit with an Arduino Nano.</p>
         </div>
       </div>
       <div class="row no-gutters">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/glove_strobe_light.gif');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Strobe Light Controller</h2>
-          <p class="lead mb-0">PhysTic uses light to explain the physics behind some amazing experiments! A fun mode to try is using strobe light to stop moving objects just by moving the stick!</p>
+          <h2>PhysStick-W</h2>
+          <p class="lead mb-0">PhysStick-W is also a small and compact device, but this one includes Wi_Fi communication. PhysStick-W is smaller than PhysStick-C because the Touch Screen is connected by Wi-Fi with the light stick.
+            PhysStick-W is perfect for explaining physic experiments in front of a crowd such as an HighSchool physic class. It's more difficult to custom this Phystic, however it is also possible, you can develop your own apps and control Phystic-W from your mobile phone </p>
         </div>
       </div>
 
@@ -121,8 +123,9 @@
                   <ul class="nav nav-tabs  d-flex justify-content-center" role="tablist">
                     <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Overview</a></li>
                     <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Manual</a></li>
-                    <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Components</a></li>
-                    <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">FAQ</a></li>
+                    <li role="presentation"><a href="#Section3" aria-controls="profile" role="tab" data-toggle="tab">Software</a></li>
+                    <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">Components</a></li>
+                    <li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab">FAQ</a></li>
                   </ul>
                   <!-- Tab panes -->
                   <div class="tab-content tabs">
@@ -135,7 +138,7 @@
                         <ul>
                           <li>How to create a complete project in C++</li>
                           <li>How to change the blinking frequency of a led</li>
-                          <li>To use the arduino UNO, one of the most famous microcontrollers</li>
+                          <li>To use the arduino NANO, one of the most famous microcontrollers</li>
                         </ul>
                           <p>This pointer is controlled by an arduino Nano, which activates an stroboscopic light that changes its frequency with a touchscreen and the rotation of the stick. </p>
                           <p>The main utility of the PhysStick is to show the aliasing effect; when a light blinks with a frequency equal to the rotation of a spin (such as a simple fan), it creates a visual effect to make the spin still.</p>
@@ -152,44 +155,303 @@
                       </div>
                       <div class="tabcontent">
                         <h3>Usage</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
-                      </div>
+                        <div class="container-fluid">
+                          <h4>Step 1</h4>
+                          <div class="row">
+                            <div class="col-6 intro">
+                              <p class="mt-5">Once you turn on PhysStick you should see something in the screen like the image on the right.
+                              If something doesn't seem to be alright perhaps you should assemble again  your PhysStick.</p>
+                            </div>
+                            <div class="col-6 centerImage">
+                              <img class="img-fluid mb-3 " src="img/intro.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="container-fluid">
+                          <h4>Step 2</h4>
+                          <div class="row">
+                            <div class="col-6 centerImage">
+                              <img class="img-fluid mb-3 " src="img/main_menu.jpg" alt="">
+                            </div>
+                            <div class="col-6 intro">
+                              <p class="mt-5">In just a few seconds, a menu like the shown in this step should open.
+                                Here you can chose what experiment you want.
+                                For this moment only the frequency experiment is available.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="container-fluid">
+                          <h4>Step 3</h4>
+                          <div class="row">
+
+                            <div class="col-6 intro">
+                              <p class="mt-5">Finally, once you select one of the experiments, you should see an interface to play the experiment.
+                              Each experiment is different so the interface is too, but don't worry, they all are very simple. For example, to play the experiment
+                                shown in the image you only have to vary the bar to control the frequency and PyhsStic should stop whatever it is pointing.</p>
+                            </div>
+                            <div class="col-6 centerImage">
+                              <img class="img-fluid mb-3 " src="img/freq_menu.jpg" alt="">
+                            </div>
+                          </div>
+                          </div>
+                        </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="Section3">
                       <div class="tabcontent">
+                        <h3>Software</h3>
+                        <p>Are you interested in electronics?? Then ...</p>
+                        <h4>Let's take a look at our code!!</h4>
+                        <p>Our code has 2 main parts:</p>
+
+                        <h4>The includes</h4>
+                        <pre>
+                          <code>
+/*IMU*/
+#include "I2Cdev.h"
+#include "MPU6050.h"
+#include "Kalman.h"
+
+/*Screen*/
+#include "SeeedTouchScreen.h"
+#include "TFTv2.h"
+#include "SPI.h"
+                          </code>
+                        </pre>
+
+                        <p>First and not only in this project, we have to include the libraries we're using,
+                          in our case we're including the previously mentioned Kalman filter library and the
+                          MPU6050 library, this library allow us to instantiate a variable which represent our IMU and
+                          communicate with it through the function getMotion6() (We will see it later).</p>
+
+                        <p>To control the screen we have to include the files "SeeedTouchScreen.h", "TFTv2.h" and "SPI.h". The first and second files control the screen while the third is the communication protocol we will use to send the info </p>
+                        <p>  "I2Cdev.h" and "SPI.h" aren't provided because are already include in the framework of arduino, and "MPU6050.h" must be installed with the IDE, if you don't know how, please follow this  <a href="https://programarfacil.com/blog/arduino-blog/instalar-una-libreria-de-arduino/">tutorial</a></p>
+
+                        <h4>The Global Variables</h4>
+
+                        <p>Those variables are used in all the parts of the project. When a variable is defined outside any function, all the functions can read it and modify it.</p>
+
+                        <p>The Led Global Variables:</p>
+                        <p>With those global variables we will control when the led is going to turn on or off.</p>
+                        <pre>
+                          <code>
+int light = 200;      // LIGHTS ON delay, microseconds
+int dark;             // LIGHTS OFF delay
+int min_dark = 1;     // min dark delay
+int max_dark = 50;    // max dark delay
+#define light_pin 2   // MOSFET pin
+#define  potent_pin 6 // potentiometer pin
+int angle;
+boolean flag;
+long lastchange;
+                          </code>
+                        </pre>
+
+                        <p>The IMU Global Variables:</p>
+                        <p>With those global variables we will interface the IMU and store it's measures.</p>
+
+                        <pre>
+                          <code>
+MPU6050 accelgyro;
+
+#if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+    #include "Wire.h"
+#endif
+#define OUTPUT_READABLE_ACCELGYRO
 
 
-                        <h3>Components</h3>
-                        <p>Phystic has the following hardware:</p>
+Kalman kalmanX;
+Kalman kalmanZ;
+uint8_t IMUAddress = 0x68;
+/* IMU Data */
+int16_t accX;
+int16_t accY;
+int16_t accZ;
+int16_t tempRaw;
+int16_t gyroX;
+int16_t gyroY;
+int16_t gyroZ;
+double accXangle; // Angle calculate using the accelerometer
+double accZangle;
+double temp;
+double gyroXangle = 180; // Angle calculate using the gyro
+double gyroZangle = 180;
+double compAngleX = 180; // Calculate the angle using a Kalman filter
+double compAngleZ = 180;
+double kalAngleX; // Calculate the angle using a Kalman filter
+double kalAngleZ;
+uint32_t timer;
+                          </code>
+                        </pre>
+                        <p>The IMU Global Variables:</p>
+                        <p>With those global variables we will interface the screen</p>
+                        <pre>
+                          <code>
+TouchScreen ts = TouchScreen(XP, YP, XM, YM); //init TouchScreen port pins
+
+int P=3, P0= 1;
+int F = 100;
+
+int freqModeFlag = 0;
+                          </code>
+                        </pre>
+                        <h4>The functions:</h4>
+                        <p>Arduino has two main functions, the setup and the loop. The setup is run just one time and it's objective is configure the system. The loop is run until the device is turn off and it's objective is to run the main part of the code.</p>
+                        <p>We also have define other functions to organize the code.</p>
+
+                        <p>IMU functions:</p>
+                        <ul>
+                          <li>measure(): This function is used to calculate the position of the stick</li>
+                        </ul>
+                        <p>Screen functions:</p>
+                        <ul>
+                          <li>initPLot(): This function shows the animation when the device is turned on</li>
+                          <li>plotVal(): ???</li>
+                          <li>freqMode(): ???</li>
+                          <li>menu(): This function implements the menu of the API</li>
+                          <li>SenseControl(int x, int y): ???</li>
+                        </ul>
+
+                        <p> The Setup function:</p>
+                        Here we configure and initialize all the parts of PhysStick
+                        <pre>
+                          <code>
+void setup() {
+
+  Tft.TFTinit();  //init TFT library
+  initPlot() ;
+
+  #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+        Wire.begin();
+    #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
+        Fastwire::setup(400, true);
+    #endif
+
+  Serial.begin(9600);
+  pinMode(light_pin, OUTPUT);
+  Serial.println("Initializing I2C devices...");
+  accelgyro.initialize();
+  Serial.println("Testing device connections...");
+  Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
+
+  kalmanX.setAngle(180); // Set starting angle
+  kalmanZ.setAngle(180);
+  timer = micros();
+}
+                          </code>
+                        </pre>
+                        <p> The Loop function:</p>
+                        The loop it's a bit more complex.
+                        First we get the calculate the angles and the light and dark periods with measure(), then we toggle the led and at the end we actualize the data of the screen.
+                        <pre>
+                          <code>
+void loop() {
+  measure();                                            // obtain acceleration and angle speeds
+  if (accZ > 25000 && (millis() - lastchange > 300)) {  // Z axis shake detection
+    flag = !flag;                                       // toggle light
+    lastchange = millis();                              // timer
+  }
+
+  if (flag == 1) {
+    angle = 250 - kalAngleZ;   // calculate angle (with 250 degrees offset)
+
+    // dark times calculation
+    dark = map(analogRead(potent_pin), 0, 1024, min_dark, max_dark);
+    digitalWrite(light_pin, 1);    // lights up
+    delayMicroseconds(light);      // wait
+    digitalWrite(light_pin, 0);    // lights down
+    delay(dark);                   // wait
+    delayMicroseconds(2000 + angle * 10); // extra wait
+    F = 1 / (light + dark);        //Frequency calculation
+  }
+
+   Point p = ts.getPoint();
+    p.x = map(p.x, TS_MINX, TS_MAXX, 0, 240);       //map the ADC value read to into pixel co-ordinates
+    p.y = map(p.y, TS_MINY, TS_MAXY, 0, 320);
+    delay(200);
+
+    Serial.println(freqModeFlag);
+
+    SenseControl(p.x, p.y) ;
+
+    if (freqModeFlag == 1){
+         if ( P0 != P )
+         {
+           Tft.fillRectangle(197, 20, 20, 262, GRAY1);      // Slider 1
+           Tft.fillRectangle(197, 262 - 19*P, 20, 20 + 19*P, BLUE);   // PLot Status Slider 1
+
+           plotVal();
+         }
+    }
+
+     P0 = P;
+}
+                          </code>
+                        </pre>
+                      </div>
+
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section4">
+                      <h3>Components</h3>
+
+                      <div class="tabcontent">
+                        <h3>PhysStick-C</h3>
+                        <p>PhysStick-C has the following hardware:</p>
                         <div style="display:flex;justify-content: center;width: 100%">
 
-                        <table>
-                          <tr>
-                            <td>Microcontroller</td>
-                            <td>Arduino Nano</td>
-                          </tr>
-                          <tr>
-                            <td>TouchScreen</td>
-                            <td>TFT Touchshield V2</td>
-                          </tr>
-                          <tr>
-                            <td>Inertial movement unit</td>
-                            <td>MPU6050</td>
-                          </tr>
-                          <tr>
-                            <td>Led</td>
-                            <td>50W White LED Diode</td>
-                          </tr>
-                          <tr>
-                            <td>Battery</td>
-                            <td>3.7 V 1500 mAh LiPo
-                            </td>
-                          </tr>
-                        </table>
+                          <table>
+                            <tr>
+                              <td>Microcontroller</td>
+                              <td>Arduino Nano</td>
+                            </tr>
+                            <tr>
+                              <td>TouchScreen</td>
+                              <td>TFT Touchshield V2</td>
+                            </tr>
+                            <tr>
+                              <td>Inertial movement unit</td>
+                              <td>MPU6050</td>
+                            </tr>
+                            <tr>
+                              <td>Led</td>
+                              <td>50W White LED Diode</td>
+                            </tr>
+                            <tr>
+                              <td>Battery</td>
+                              <td>3.7 V 1500 mAh LiPo
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+
+                      <div class="tabcontent">
+                        <h3>PhysStick-W</h3>
+                        <p>PhysStick-W has the following hardware:</p>
+                        <div style="display:flex;justify-content: center;width: 100%">
+
+                          <table>
+                            <tr>
+                              <td>Microcontroller</td>
+                              <td>2 x Arduino Nano - BLE</td>
+                            </tr>
+                            <tr>
+                              <td>TouchScreen</td>
+                              <td>TFT Touchshield V2</td>
+                            </tr>
+                            <tr>
+                              <td>Led</td>
+                              <td>50W White LED Diode</td>
+                            </tr>
+                            <tr>
+                              <td>Battery</td>
+                              <td>3.7 V 1500 mAh LiPo
+                              </td>
+                            </tr>
+                          </table>
                         </div>
                       </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="Section4">
+                    <div role="tabpanel" class="tab-pane fade" id="Section5">
                       <div class="tabcontent">
                         <h3>FAQ</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
@@ -206,27 +468,50 @@
   <!-- Testimonials -->
   <section class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
+      <h2 class="mb-5">The Developers</h2>
+      <div class="mb-5 row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/alex.jpeg" alt="">
+            <h5>Alex R.</h5>
+            <p class="font-weight-light mb-0">ETSIT Student</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/manu.jpg" alt="">
+            <h5>Manuel S.</h5>
+            <p class="font-weight-light mb-0">ETSIT Student</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/jaime.jpg" alt="">
+            <h5>Jaime V.</h5>
+            <p class="font-weight-light mb-0">ETSIT Student</p>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/david.jpeg" alt="">
+            <h5>David A.</h5>
+            <p class="font-weight-light mb-0">ETSIT Student</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/marcos.jpg" alt="">
+            <h5>Marcos ?.</h5>
+            <p class="font-weight-light mb-0">ETSIT Student</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/mati.jpg" alt="">
+            <h5>Matias G.</h5>
+            <p class="font-weight-light mb-0">Me gustan duras y gorditas</p>
           </div>
         </div>
       </div>

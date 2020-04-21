@@ -12,14 +12,47 @@ a:hover,a:focus{
 
 
 }
+.intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.centerImage
+{
+    text-align:center;
+    display:block;
+}
+pre {
+    display: block;
+
+    white-space: pre;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+
+    word-wrap: break-word;
+}
 li{
-    margin-bottom:0.6%;
+    margin-bottom:0.45%;
 }
 table {
     width: 80%;
     margin-bottom:2%;
     border: 1px solid #f1f1f1;
 }
+
 tr:nth-child(even){background-color: #f2f2f2;}
 
 .tab .nav-tabs li a{

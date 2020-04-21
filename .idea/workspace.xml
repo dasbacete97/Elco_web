@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f71032-32f7-4c33-803c-97f0ae35d5ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/alex.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/david.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freq_menu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freq_menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/intro.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jaime.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jaime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main_menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/manu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/manu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/marcos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/marcos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mati.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mati.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/myCSS.css" afterDir="false" />
@@ -12,9 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -35,7 +50,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -46,6 +60,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,22 +80,34 @@
       <workItem from="1585055449087" duration="4963000" />
       <workItem from="1585245184499" duration="5047000" />
       <workItem from="1585306988211" duration="3320000" />
-      <workItem from="1585666782090" duration="4169000" />
+      <workItem from="1585666782090" duration="4732000" />
+      <workItem from="1586432480576" duration="32000" />
+      <workItem from="1586453035674" duration="1303000" />
+      <workItem from="1586533033725" duration="1136000" />
+      <workItem from="1586535530597" duration="4277000" />
+      <workItem from="1586711190089" duration="4204000" />
+      <workItem from="1586946216314" duration="603000" />
+      <workItem from="1587228925400" duration="3359000" />
+      <workItem from="1587458914609" duration="4671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585666791641">
+    <state x="360" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1586946216709">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1585055449695" />
-    <state x="360" y="189" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585666791641" />
+    <state x="360" y="189" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1586946216709" />
+    <state x="451" y="317" width="454" height="158" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586537021393">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="451" y="317" width="454" height="158" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1586537021393" />
     <state x="347" y="176" key="run.anything.popup" timestamp="1585249854503">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
