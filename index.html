@@ -43,7 +43,7 @@
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">Phystick!!</h1>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto ">
           <form>
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
@@ -54,6 +54,9 @@
               </div>
             </div>
           </form>
+        </div>
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mt-5">Stop moving object with a stroboscopic light</h2>
         </div>
       </div>
     </div>
@@ -159,8 +162,8 @@
                           <h4>Step 1</h4>
                           <div class="row">
                             <div class="col-6 intro">
-                              <p class="mt-5">Once you turn on PhysStick you should see something in the screen like the image on the right.
-                              If something doesn't seem to be alright perhaps you should assemble again  your PhysStick.</p>
+                              <p class="mt-5">Once you turn on Phystick you should see something in the screen like the image on the right.
+                              If something doesn't seem to be alright perhaps you should assemble again  your Phystick.</p>
                             </div>
                             <div class="col-6 centerImage">
                               <img class="img-fluid mb-3 " src="img/intro.jpg" alt="">
@@ -187,7 +190,7 @@
                             <div class="col-6 intro">
                               <p class="mt-5">Finally, once you select one of the experiments, you should see an interface to play the experiment.
                               Each experiment is different so the interface is too, but don't worry, they all are very simple. For example, to play the experiment
-                                shown in the image you only have to vary the bar to control the frequency and PyhsStic should stop whatever it is pointing.</p>
+                                shown in the image you only have to vary the bar to control the frequency and Pyhstic should stop whatever it is pointing.</p>
                             </div>
                             <div class="col-6 centerImage">
                               <img class="img-fluid mb-3 " src="img/freq_menu.jpg" alt="">
@@ -201,8 +204,6 @@
                         <h3>Software</h3>
                         <p>Are you interested in electronics?? Then ...</p>
                         <h4>Let's take a look at our code!!</h4>
-                        <p>Our code has 2 main parts:</p>
-
                         <h4>The includes</h4>
                         <pre>
                           <code>
@@ -283,7 +284,7 @@ uint32_t timer;
                           </code>
                         </pre>
                         <p>The IMU Global Variables:</p>
-                        <p>With those global variables we will interface the screen</p>
+                        <p>With those global variables we will interface the screen.</p>
                         <pre>
                           <code>
 TouchScreen ts = TouchScreen(XP, YP, XM, YM); //init TouchScreen port pins
@@ -300,19 +301,20 @@ int freqModeFlag = 0;
 
                         <p>IMU functions:</p>
                         <ul>
-                          <li>measure(): This function is used to calculate the position of the stick</li>
+                          <li>measure(): This function is used to calculate the position of the stick.</li>
                         </ul>
                         <p>Screen functions:</p>
                         <ul>
-                          <li>initPLot(): This function shows the animation when the device is turned on</li>
-                          <li>plotVal(): ???</li>
-                          <li>freqMode(): ???</li>
+                          <li>initPLot(): This function shows the animation when the device is turned on.</li>
+                          <li>plotVal(): This method is the one who makes the “refresh” of the number shown in the screen.</li>
+                          <li>freqMode(): This functions defines the interface of the FREQUENCY MODE (buttons, slider…).</li>
                           <li>menu(): This function implements the menu of the API</li>
-                          <li>SenseControl(int x, int y): ???</li>
+                          <li>SenseControl(int x, int y): This method is responsable for mapping and recognizing the
+                            pressure on the screen.</li>
                         </ul>
 
                         <p> The Setup function:</p>
-                        Here we configure and initialize all the parts of PhysStick
+                        Here we configure and initialize all the parts of PhysStick.
                         <pre>
                           <code>
 void setup() {
@@ -394,7 +396,7 @@ void loop() {
                       <h3>Components</h3>
 
                       <div class="tabcontent">
-                        <h3>PhysStick-C</h3>
+                        <h3>Phystick-C</h3>
                         <p>Phystick-C has the following hardware:</p>
                         <div style="display:flex;justify-content: center;width: 100%">
 
