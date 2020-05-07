@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f71032-32f7-4c33-803c-97f0ae35d5ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHEM_PHYSTICK.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyectoElco.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -76,6 +79,7 @@
       <workItem from="1588419126537" duration="31000" />
       <workItem from="1588421032327" duration="847000" />
       <workItem from="1588501140488" duration="211000" />
+      <workItem from="1588867816610" duration="2056000" />
     </task>
     <servers />
   </component>
